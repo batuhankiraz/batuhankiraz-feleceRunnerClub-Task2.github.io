@@ -1,0 +1,212 @@
+#mobile-menu-item{
+    height: 100%;
+    width: 0%;
+    z-index: 1;
+    background-color: navy;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#mobile-menu-item-content{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-right: 5vw;
+    margin-top: 3vh;
+}
+#mobile-menu-item-content #item-btn_1{
+    width: 75%;
+    background-color: white;
+}
+#mobile-menu-item-content #item-btn_1 b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5vh;
+    color: navy;
+}
+#mobile-menu-item-content #item-btn_2{
+    width: 22%;
+    background-color:navy;
+    color:white;
+    margin-right: 3vw;
+}
+#slide-item{
+    height: 25vh;
+    width: 100vw;
+}
+#mobile-menu{
+    height: 100%;
+    width: 0%;
+    z-index: 1;
+    background-color: navy;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#open_btn_menu{
+    padding: 1.6vw;
+    background-color: lightgray;
+}
+#open_btn{
+    background-color: lightgray;
+    color:royalblue;
+    border: none;
+    border-radius: 1vh;
+    margin-left: 3vw;
+}
+#close_btn{
+    color: white;
+}
+#mobile-menu-content{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-right: 5vw;
+    margin-top: 3vh;
+}
+#mobile-menu-content #btn_1{
+    width: 75%;
+    background-color: white;
+}
+#mobile-menu-content #btn_1 b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5vh;
+    color: navy;
+}
+#mobile-menu-content #btn_2{
+    width: 22%;
+    background-color:navy;
+    color:white;
+    margin-right: 3vw;
+}
+#orderTracking{
+    margin-bottom: 0.3vh;
+    padding: 1.6vw;
+    align-items: center;
+    text-align: center;
+    color: royalblue;
+    background: lightgrey;
+}
+#orderTracking_btn{
+    color: royalblue;
+}
+#before-header{
+    color: dimgrey;
+    background:white;
+    align-items: center;
+    text-align: center;
+}
+#search_btn{
+    color: tomato;
+}
+#userLogin_btn{
+    color: tomato;
+}
+#addFavourite_btn{
+    color:tomato;
+}
+#userShop_btn{
+    color: tomato;
+}
+#icon-text b{
+    color: coral;
+    font-size:55% ;
+}
+#logo{
+    max-width: 15vw;
+    max-height: 6vh;
+}
+#register-head{
+    color: steelblue;
+}
+#register-link a{
+    color:royalblue;
+}
+#register-link a:hover{
+    color: navy;
+}
+#submenu_1{
+    display: none;
+}
+#submenu_2{
+    display: none;
+}
+#submenu_3{
+    display: none;
+}
+#submenu_4{
+    display: none;
+}
+#submenu_5{
+    display: none;
+}
+.card th a{
+    font-size: 85%;
+    color: rgb(40, 40, 145);
+}
+.card td a{
+    font-size: 85%;
+    color: slategray;
+}
+#searched-values{
+    background-color:tomato;
+    display: none;
+}
+#searched-values a{
+    color: white;
+}
+#slide-item-web{
+    height: 40vh;
+    width: 100vw;
+}
+#col-6-item{
+    height: 30vh;
+    width: 45vw;
+}
+#web-banner , #mobile-banner{
+    width: 100vw;
+    height: 10vh;
+}
+#col-12-item{
+    width: 100vw;
+    height: 25vh;
+}
+
+
+
+@media only screen and (min-width: 750px) {
+    #mobile-header {
+        display: none;
+    }
+    #mobile-banner{
+        display: none;
+    }
+    #col-12-item{
+        display: none;
+    }
+}
+@media only screen and (max-width: 749px) {
+    #header {
+        display: none;
+    }
+    #web-banner{
+        display: none;
+    }
+    #col-6-item{
+        display: none;
+    }
+}
